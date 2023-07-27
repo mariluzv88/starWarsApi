@@ -4,18 +4,13 @@ import {Route,Routes} from 'react-router-dom'
 import Main from "./pages/Main";
 import Nav from "./components/Nav";
 import axios from 'axios'
+import './style.css'
+
 
 
 
 function App() {
-    const getInfo = async () => {
-        const response = await axios.get("https://swapi.dev/api/");
-        const info = response.data;
-        console.log(info);
-      };
-      useEffect(() => {
-        getInfo();
-      }, []);
+    
   return (
     <div>
         <Nav/>
