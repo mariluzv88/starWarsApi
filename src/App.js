@@ -8,7 +8,14 @@ import axios from 'axios'
 
 
 function App() {
-
+    const getInfo = async () => {
+        const response = await axios.get("https://swapi.dev/api/");
+        const info = response.data;
+        console.log(info);
+      };
+      useEffect(() => {
+        getInfo();
+      }, []);
   return (
     <div>
         <Nav/>
