@@ -13,6 +13,7 @@ const AppContextProvider = (props) => {
       useEffect(() => {
         getInfo();
       }, []);
+      const [url, setUrl] = useState("https://swapi.dev/api/");
     
     return(<AppContext.Provider value={{
         getInfo,
