@@ -1,20 +1,23 @@
-import React, { createContext } from 'react'
+import React, { useContext,useEffect } from 'react'
 import { AppContext } from '../context/App_context'
-import { useState,useContext } from 'react'
+
 
 function Cards(props) {
-    let {getInfo} = createContext(AppContext)
-    let {url} = createContext(AppContext)
+    // let {getInfo} = useContext(AppContext)
+    let {url} = useContext(AppContext)
+    // useEffect(() => {
+    //     getInfo();
+    //   }, []);
   return (
     <div>
-          {/* {props.url? props.url.map((card)=>{
+          {url? url.map((card)=>{
           return (
-            <div>
+           
                 <h1>{card.name}</h1>
-            </div>
+            
           )
          }):<p>Loading</p>}
-         <h1>hi{url.name}</h1>  */}
+         {/* <h1>hi{url.name}</h1>  */}
     </div>
   )
 }
