@@ -1,12 +1,13 @@
 import React from 'react'
 import Cards from '../components/Cards'
 
-function Container() {
+
+function Characters() {
   return (
     <div>
-    <Cards/>
-</div>
+        <Cards/>
+    </div>
   )
 }
 
-export default Container
+export default Characters
