@@ -1,12 +1,12 @@
 import React from 'react'
 import Cards from '../components/Cards'
 
-function Fire(props) {
+function Container() {
   return (
     <div>
-        <Cards/>
-    </div>
+    <Cards/>
+</div>
   )
 }
 
-export default Fire
+export default Container
