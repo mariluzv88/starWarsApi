@@ -6,8 +6,8 @@ export const AppContext = createContext()
 
 const AppContextProvider = (props) => {
     const getInfo = async () => {
-        const response = await axios.get("https://swapi.dev/api/people/");
-        const info = response.data.results;
+        const response = await axios.get("https://swapi.dev/api/");
+        const info = response.data;
         console.log(info);
         setUrl(info)
       };
