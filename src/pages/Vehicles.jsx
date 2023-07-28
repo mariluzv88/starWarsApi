@@ -7,7 +7,7 @@ function Vehicles() {
   useEffect(() => {
     getCars();
   }, []);
-  const loaded = () => {
+  // const loaded = () => {
     return (
       <div>
           <div className='shipContainer'>
@@ -32,12 +32,12 @@ function Vehicles() {
       </div>
     )
   }
-  const loading = () => {
-      return <h1>Loading...</h1>;
-    };
+  // const loading = () => {
+  //     return <h1>Loading...</h1>;
+  //   };
   
    
-    return url ? loaded() : loading();
-  }
+  //   return url ? loaded() : loading();
+  // }
 
 export default Vehicles

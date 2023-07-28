@@ -7,13 +7,12 @@ function Starship() {
   useEffect(() => {
     getStars();
   }, []);
-  const loaded = () => {
+  // const loaded = () => {
     return (
-      <div>
+     
         <div className='shipContainer'>
             {url? url.map((card)=>{
-            return (
-                <div className='ship'>
+            return <div className='ship'>
                   <h3 ><h3 className='title'>Name:</h3>{card.name} <h3 className='title'>Model:</h3>  {card.model}</h3>
                   <h4 > <h3 className='title'>Manufacturer:</h3>{card.manufacturer}</h4>
                   <div className='statsContainer'>
@@ -23,20 +22,20 @@ function Starship() {
                         <div className='stats'><h3><h3 className='title'>Name:</h3>HyperDrive Rating:{card.hyperdrive_rating}<h3 className='title'>Name:</h3>Crew:{card.crew}</h3></div>
                     </div>
                 </div>
-            )
+            
           }):<p>Loading</p>}
            {/* <h1>{url.name}</h1>  */}
           </div>
            
-      </div>
+     
     )
   }
-  const loading = () => {
-      return <h1>Loading...</h1>;
-    };
+  // const loading = () => {
+  //     return <h1>Loading...</h1>;
+  //   };
   
    
-    return url ? loaded() : loading();
-  }
+  //   return url ? loaded() : loading();
+  // }
 
 export default Starship
