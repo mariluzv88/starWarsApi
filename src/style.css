@@ -375,6 +375,7 @@ body{
   justify-content: space-evenly;
   background-color: black;
   padding: 10px;
+  height: 60px;
 }
 a {
   color: yellow;
