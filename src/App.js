@@ -20,10 +20,10 @@ import Starship from "./pages/Starship";
 
 function App() {
    
-    let {getInfo} = useContext(AppContext)
-      useEffect(() => {
-        getInfo();
-      }, []);
+    // let {getInfo} = useContext(AppContext)
+    //   useEffect(() => {
+    //     getInfo();
+    //   }, []);
   
   return (
     <div>

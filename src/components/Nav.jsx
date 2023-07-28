@@ -19,7 +19,7 @@ function Nav() {
       <Link to="/species">
         <div>SPECIES</div>
       </Link>
-      <Link to="/vehicle">
+      <Link to="/vehicles">
         <div>VEHICLES</div>
       </Link>
       <Link to="/starship">

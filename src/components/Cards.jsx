@@ -9,14 +9,14 @@ function Cards(props) {
     const loaded = () => {
   return (
     <div>
-          {/* {url? url.map((card)=>{
+          {url? url.map((card)=>{
           return (
            
                 <h1>{card.name}</h1>
             
           )
-         }):<p>Loading</p>} */}
-         <h1>{url.people}</h1> 
+         }):<p>Loading</p>}
+         {/* <h1>{url.name}</h1>  */}
          
     </div>
   )
