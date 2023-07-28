@@ -4,12 +4,18 @@ import { AppContext } from "../context/App_context";
 function Cards(props) {
   let { url } = useContext(AppContext);
 
-  const loaded = () => {
+  // const loaded = () => {
     return (
+      <div>
+        <div className='superContainer2'>
+              <img src="https://i.gifer.com/SDog.gif" alt="" class="pic" />
+            <p className='Maintext'> Star Wars Characters</p>
+         </div>
       <div className="characterContainer">
         {url ? (
           url.map((card) => {
             return (
+                
               <div className="characters">
                 <h1>{card.name}</h1>
                 <div className="characterInfo">
@@ -28,13 +34,14 @@ function Cards(props) {
         )}
         {/* <h1>{url.name}</h1>  */}
       </div>
+      </div>
     );
   };
-  const loading = () => {
-    return <h1>Loading...</h1>;
-  };
+  // const loading = () => {
+  //   return <h1>Loading...</h1>;
+  // };
 
-  return url ? loaded() : loading();
-}
+//   return url ? loaded() : loading();
+// }
 
 export default Cards;

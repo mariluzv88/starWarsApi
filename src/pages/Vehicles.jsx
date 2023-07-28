@@ -10,6 +10,10 @@ function Vehicles() {
   // const loaded = () => {
     return (
       <div>
+        <div className='superContainer2'>
+        <img src="https://media.tenor.com/8IFXAEpDgd8AAAAC/star-wars-star-citizen.gif" alt="" class="pic" />
+         <p className='Maintext'> Star Wars Vehicles</p>
+    </div>
           <div className='shipContainer'>
             {url? url.map((card)=>{
             return (

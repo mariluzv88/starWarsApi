@@ -9,7 +9,11 @@ function Starship() {
   }, []);
   // const loaded = () => {
     return (
-     
+      <div>
+            <div className='superContainer2'>
+            <img src="https://qph.cf2.quoracdn.net/main-qimg-1c2b4ddd4f9e03a5a8f2500d0d21b58d" alt="" class="pic" />
+          <p className='Maintext'> Star Wars Star Ships</p>
+          </div>
         <div className='shipContainer'>
             {url? url.map((card)=>{
             return <div className='ship'>
@@ -27,7 +31,7 @@ function Starship() {
            {/* <h1>{url.name}</h1>  */}
           </div>
            
-     
+          </div>
     )
   }
   // const loading = () => {
