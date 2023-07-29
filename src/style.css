@@ -325,10 +325,12 @@
   color: red;
   font-family: arial;
 }
-.Maintext{
+.Maintext {
   font-weight: Bold;
   font-family: Arial;
-  color:white;
+  color: white;
+  font-size: 55px;
+  margin: 15px;
 }
 .pic{
   height:300px;
@@ -355,6 +357,10 @@
   border:2px solid black;
   padding:20px;
   border-radius: 100px;
+}
+.state {
+  text-align: center;
+  text-transform: uppercase;
 }
 
 
