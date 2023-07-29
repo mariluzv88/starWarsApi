@@ -10,9 +10,21 @@
    
   <li>axios</li>
 </ul>
- <h2>Wireframes</h2>
+ <h2>Wireframe / Components Hierarchy:</h2>
 
-###Components Hierarchy: 
+<ul>
+ <h4>Hooks</h4>
+      <li>useContext</li>
+      <li>useState</li>
+      <li>useEffect</li>
+ <h4>Components</h4>
+   <li>Main Page [ State|Marquee ]</li>
+   <li>Characters Page [ Cards ]</li>
+   <li>FIlms Page </li>
+   <li>Species Page </li>
+   <li>Vehicles Page </li>
+   <li>StarShips Page </li>
+</ul>
 
  <h2>API</h2>
  <ul>
