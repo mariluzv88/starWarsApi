@@ -1,5 +1,5 @@
 /* ------------------- DESKTOP ---------------------- */
-@media screen and (max-width: 2500px) {
+@media  (max-width: 4580px) {
   body {
     padding: 0;
     margin: 0;
@@ -22,7 +22,7 @@
     flex-wrap: wrap;
     /* flex-direction: column; */
     justify-content: space-evenly;
-    overflow-y: scroll;
+    /* overflow-y: scroll; */
     margin: 20px 10px;
   }
 
@@ -57,96 +57,137 @@
     display: flex;
     justify-content: space-between;
   }
-}
-/* -------------------main page css------------------ */
-.majorDiv{
-  color: green;
-  font-family: arial;
-  font-size: 20px;
-}
-.text4{
-  color: red;
-  font-family: arial;
-}
-.Maintext{
-  font-weight: Bold;
-  font-family: Arial;
-  color:white;
-}
-.pic{
-  height:300px;
-  width: 800px;
-  border: blue;
-}
-.superContainer{
-    background: radial-gradient(circle at bottom, navy 0, black 100%);
-    height: 100vh;
-    overflow: hidden;
-    text-align: center;
-}
-@media all and (max-width:500px){
-  .superContainer{
-    color:green
+
+
+    /* -------------------main page css------------------ */
+    .majorDiv{
+      color: green;
+      font-family: arial;
+      font-size: 20px;
+    }
+    .text4{
+      color: red;
+      font-family: arial;
+    }
+    .Maintext {
+      font-weight: Bold;
+      font-family: Arial;
+      color: white;
+      font-size: 50px;
+      margin: 15px;
+    }
+    .pic{
+      height:300px;
+      width: 1000px;
+      border: blue;
+    }
+    .marqueeContainer{
+     display: flex;
+     justify-content: center;
+    }
+    .marquee{
+      color: yellow;
+      padding: 20px;
+      text-align: center;
+      height:1200px;
+      width: 1000px;
+     
+      
+    }
+    .superContainer{
+        background: radial-gradient(circle at bottom, navy 0, black 100%);
+        height: 100vh;
+        overflow: hidden;
+        text-align: center;
+    }
+    .superContainer2{
+      height: 400px;
+      overflow: hidden;
+      text-align: center;
+      justify-content: center;
+    }
+
+    .text{
+      font-size: 20px;
+      color: red;
+    }
+    .btn{
+      color:red;
+      border:2px solid black;
+      padding:20px;
+      border-radius: 100px;
+    }
+    /* --------------------Characters and Planets CSS----------------- */
+    .planetContainer {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-evenly;
+      margin: 5px;
+    }
+
+    .planets {
+      text-align: center;
+      border: solid white;
+      width: 30%;
+      border-radius: 15px;
+      background-color: #d7bbf5;
+      color: black;
+    }
+    .planetInfo {
+      background-color: #0c134f;
+      color: white;
+      padding: 5px;
+      border-radius: 15px;
+    }
+
+    .characterContainer {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-evenly;
+      margin: 5px;
+    }
+
+    .characters {
+      text-align: center;
+      border: solid white;
+      width: 30%;
+      border-radius: 15px;
+      background-color: #d7bbf5;
+      color: black;
+    }
+    .characterInfo {
+      background-color: #0c134f;
+      color: white;
+      padding: 5px;
+      border-radius: 15px;
+    }
+    /* -------------Films page CSS */
+    .filmsContainer {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-evenly;
+      margin: 5px;
+    }
+
+    .films {
+      text-align: center;
+      border: solid white;
+      width: 30%;
+      border-radius: 15px;
+      background-color: #d7bbf5;
+      color: black;
+    }
+    .filmInfo {
+      background-color: #0c134f;
+      color: white;
+      padding: 5px;
+      border-radius: 15px;
+    }
   }
-}
-.text{
-  font-size: 20px;
-  color: red;
-}
-.btn{
-  color:red;
-  border:2px solid black;
-  padding:20px;
-  border-radius: 100px;
-}
-/* --------------------Characters and Planets CSS----------------- */
-.planetContainer {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-evenly;
-  margin: 5px;
-}
-
-.planets {
-  text-align: center;
-  border: solid white;
-  width: 30%;
-  border-radius: 15px;
-  background-color: #d7bbf5;
-  color: black;
-}
-.planetInfo {
-  background-color: #0c134f;
-  color: white;
-  padding: 5px;
-  border-radius: 15px;
-}
-
-.characterContainer {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-evenly;
-  margin: 5px;
-}
-
-.characters {
-  text-align: center;
-  border: solid white;
-  width: 30%;
-  border-radius: 15px;
-  background-color: #d7bbf5;
-  color: black;
-}
-.characterInfo {
-  background-color: #0c134f;
-  color: white;
-  padding: 5px;
-  border-radius: 15px;
-}
 
 
 /* ------------------- TABLET ---------------------- */
-@media screen and (max-width: 1500px) {
+@media  (max-width: 1080px) {
   body {
     padding: 0;
     margin: 0;
@@ -162,16 +203,60 @@
     background-color: white;
     padding: 10px;
   }
+    /* --------------------Characters and Planets CSS----------------- */
+    .planetContainer {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-evenly;
+      margin: 5px;
+    }
+  
+    .planets {
+      text-align: center;
+      border: solid white;
+      width: 40%;
+      border-radius: 15px;
+      background-color: #d7bbf5;
+      color: black;
+    }
+    .planetInfo {
+      background-color: #0c134f;
+      color: white;
+      padding: 5px;
+      border-radius: 15px;
+    }
+  
+    .characterContainer {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-evenly;
+      margin: 5px;
+      width: 100%;
+    }
+  
+    .characters {
+      text-align: center;
+      border: solid white;
+      width: 40%;
+      border-radius: 15px;
+      background-color: #d7bbf5;
+      color: black;
+    }
+    .characterInfo {
+      background-color: #0c134f;
+      color: white;
+      padding: 5px;
+      border-radius: 15px;
+    }
  /* ---------------starship and vehicle css------------------ */
-  .shipContainer {
-    /* margin: 150px; */
-    display: flex;
-    flex-wrap: wrap;
-    /* flex-direction: column; */
-    justify-content: space-evenly;
-    overflow-y: scroll;
-    margin: 20px 10px;
-  }
+ .shipContainer {
+  /* margin: 150px; */
+  display: flex;
+  flex-wrap: wrap;
+  /* flex-direction: column; */
+  justify-content: space-evenly;
+ margin: 20px 10px;
+}
 
   .ship {
     padding: 1em;
@@ -179,7 +264,7 @@
     border-radius: 20px;
     background-color: #0c134f;
     font-family: Verdana;
-    width: 25%;
+    width: 40%;
     font-size: 15px;
   }
   .title {
@@ -190,8 +275,8 @@
   }
 
   .stats {
-    /* display: flex;
-    flex-wrap: wrap; */
+    display: block;
+    flex-wrap: wrap;
     flex-direction: column;
     align-items: center;
     justify-content: space-evenly;
@@ -200,62 +285,98 @@
     border-radius: 10px;
     margin-top: 10px;
     width: 100%;
+   
   }
   .statsContainer {
-    display: flex;
+    display: block;
     justify-content: space-between;
   }
-}
-/* ---------------------main page css------------------------ */
-.majorDiv{
-  color: green;
-  font-family: arial;
-  font-size: 20px;
-}
-.text4{
-  color: red;
-  font-family: arial;
-}
-.Maintext{
-  font-weight: Bold;
-  font-family: Arial;
-  color:white;
-}
-.pic{
-  height:300px;
-  width: 800px;
-  border: blue;
-}
-.superContainer{
-    background: radial-gradient(circle at bottom, navy 0, black 100%);
-    height: 100px;
-    overflow: hidden;
-    text-align: center;
-}
-.superContainer2{
-  height: 400px;
-  overflow: hidden;
-  text-align: center;
-}
 
-@media all and (max-width:500px){
-  .superContainer{
-    color:green
-  }
-}
-.text{
-  font-size: 20px;
-  color: red;
-}
-.btn{
-  color:red;
-  border:2px solid black;
-  padding:20px;
-  border-radius: 100px;
+ /* ---------------------main page css------------------------ */
+    .majorDiv{
+      color: green;
+      font-family: arial;
+      font-size: 20px;
+    }
+    .text4{
+      color: red;
+      font-family: arial;
+    }
+    .Maintext {
+      font-weight: Bold;
+      font-family: Arial;
+      color: white;
+      font-size: 45px;
+      margin: 15px;
+    }
+    .pic{
+      height:300px;
+      width: 700px;
+      border: blue;
+    }
+    .marqueeContainer{
+     display: flex;
+     justify-content: center;
+    }
+    .marquee{
+      color: yellow;
+      padding: 20px;
+      text-align: center;
+      height:1200px;
+      width: 700px;
+     
+      
+    }
+    .superContainer{
+        background: radial-gradient(circle at bottom, navy 0, black 100%);
+        height: 100vh;
+        overflow: hidden;
+        text-align: center;
+    }
+    .superContainer2{
+      height: 400px;
+      overflow: hidden;
+      text-align: center;
+      justify-content: center;
+    }
+
+    
+    /* .text{
+      font-size: 20px;
+      color: red;
+    }
+    .btn{
+      color:red;
+      border:2px solid black;
+      padding:20px;
+      border-radius: 100px;
+    } */
+    /* -------------Films page CSS */
+    .filmsContainer {
+      display: flex;
+      /* flex-wrap: wrap; */
+      justify-content: space-evenly;
+      margin: 5px;
+    }
+
+    .films {
+      text-align: center;
+      border: solid white;
+      width: 40%;
+      border-radius: 15px;
+      background-color: #d7bbf5;
+      color: black;
+    }
+    .filmInfo {
+      background-color: #0c134f;
+      color: white;
+      padding: 5px;
+      border-radius: 15px;
+    }
 }
 
 /* ------------------- MOBILE ---------------------- */
-@media screen and (max-width: 880px) {
+@media  (max-width: 580px) {
   body {
     padding: 0;
     margin: 0;
@@ -270,15 +391,61 @@
     padding: 10px;
     font-size: 12px;
   }
+  /* --------------------Characters and Planets CSS----------------- */
+  .planetContainer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin: 5px;
+  }
+
+  .planets {
+    text-align: center;
+    border: solid white;
+    width: 80%;
+    border-radius: 15px;
+    background-color: #d7bbf5;
+    color: black;
+  }
+  .planetInfo {
+    background-color: #0c134f;
+    color: white;
+    padding: 5px;
+    border-radius: 15px;
+  }
+
+  .characterContainer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin: 5px;
+    width: 100%;
+  }
+
+  .characters {
+    text-align: center;
+    border: solid white;
+    width: 80%;
+    border-radius: 15px;
+    background-color: #d7bbf5;
+    color: black;
+  }
+  .characterInfo {
+    background-color: #0c134f;
+    color: white;
+    padding: 5px;
+    border-radius: 15px;
+  }
   /* ---------------starship and vehicle css------------------ */
 
   .shipContainer {
     /* margin: 150px; */
     display: flex;
-    flex-wrap: wrap;
+    /* flex-wrap: wrap; */
     /* flex-direction: column; */
     justify-content: space-evenly;
    margin: 20px 10px;
+   
   }
 
   .ship {
@@ -287,7 +454,7 @@
     border-radius: 20px;
     background-color: #0c134f;
     font-family: Verdana;
-    width: 25%;
+    width: 80%;
     font-size: 15px;
   }
   .title {
@@ -314,40 +481,74 @@
     display: flex;
     justify-content: space-between;
   }
+
+  /* ----------------------main page css----------------------------- */
+    .majorDiv{
+      color: green;
+      font-family: arial;
+      font-size: 20px;
+    }
+    .text4{
+      color: red;
+      font-family: arial;
+    }
+    .Maintext {
+      font-weight: Bold;
+      font-family: Arial;
+      color: white;
+      font-size: 35px;
+      margin: 15px;
+    }
+    .pic{
+      height:300px;
+      width: 350px;
+      border: blue;
+    }
+    .marquee{
+      color: yellow;
+      padding: 20px;
+      text-align: center;
+      height:600px;
+      width: 350px;
+      margin: 50px;
+      
+    }
+    .superContainer{
+        background: radial-gradient(circle at bottom, navy 0, black 100%);
+        height: 100vh;
+        overflow: hidden;
+        text-align: center;
+      }
+      /* -------------Films page CSS */
+      .filmsContainer {
+        display: flex;
+        
+        /* flex-wrap: wrap; */
+        /* justify-content: space-evenly; */
+        margin: 5px;
+      }
+
+      .films {
+        text-align: center;
+        border: solid white;
+        width: 90%;
+        border-radius: 15px;
+        background-color: #d7bbf5;
+        color: black;
+      }
+      .filmInfo {
+        background-color: #0c134f;
+        color: white;
+        padding: 5px;
+        border-radius: 15px;
+      }
 }
-/* ----------------------main page css----------------------------- */
-.majorDiv{
-  color: green;
-  font-family: arial;
-  font-size: 20px;
-}
-.text4{
-  color: red;
-  font-family: arial;
-}
-.Maintext {
-  font-weight: Bold;
-  font-family: Arial;
-  color: white;
-  font-size: 55px;
-  margin: 15px;
-}
-.pic{
-  height:300px;
-  width: 800px;
-  border: blue;
-}
-.superContainer{
-    background: radial-gradient(circle at bottom, navy 0, black 100%);
-    height: 100vh;
-    overflow: hidden;
-    text-align: center;
-}
-@media all and (max-width:500px){
+  /*---------------- general css----------------- */
+/* @media all and (max-width:500px){
   .superContainer{
     color:green
   }
-}
+} */
 .text{
   font-size: 20px;
   color: red;
@@ -364,18 +565,17 @@
 }
 
 
-/*---------------- general css----------------- */
 body{
   height: 100vh;
   width: 100vw;
   overflow: auto;
 }
-.marquee{
+/* .marquee{
   color: yellow;
   padding: 20px;
   text-align: center;
   
-}
+} */
 .nav {
   display: flex;
   justify-content: space-evenly;
@@ -388,7 +588,7 @@ a {
   text-decoration: none;
 }
 /* -------------Films page CSS */
-.filmsContainer {
+/* .filmsContainer {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-evenly;
@@ -408,4 +608,4 @@ a {
   color: white;
   padding: 5px;
   border-radius: 15px;
-}
+} */
