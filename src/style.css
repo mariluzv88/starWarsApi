@@ -587,25 +587,6 @@ a {
   color: yellow;
   text-decoration: none;
 }
-/* -------------Films page CSS */
-/* .filmsContainer {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-evenly;
-  margin: 5px;
+.likeInfo{
+ font-size: 20px;
 }
-
-.films {
-  text-align: center;
-  border: solid white;
-  width: 30%;
-  border-radius: 15px;
-  background-color: #d7bbf5;
-  color: black;
-}
-.filmInfo {
-  background-color: #0c134f;
-  color: white;
-  padding: 5px;
-  border-radius: 15px;
-} */
