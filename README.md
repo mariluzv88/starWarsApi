@@ -1,6 +1,10 @@
 # <div align="center">SPACEBALLS: Return of The PerScholas </div>
 
 ***
+ <h3>Contributors:</h3>
+   <li>Cedra Wilson</li>
+   <li>Chris Panzeri</li>
+   <li>Jonathan Dunst</li>
  <h3>Description</h3>
  The user will be able to view data about the first six Star Wars films, including Characters, Planets, and much much more! By shifting to a galaxy far, far away, user can learn information about vehicles and starships featured in the films as well as details about their favorite characters. This application allows anyone from a new fan watching for the first time to a die-hard Star Wars fan to have fun viewing all the trivia and details about the movies and characters of Star Wars.
  <h2> Dependencies</h2>
